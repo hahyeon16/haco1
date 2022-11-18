@@ -1,0 +1,21 @@
+.carousel-item {
+  width: fill;
+  height: 600px;
+  object-fit: cover;
+}
+
+
+a {
+  text-decoration: none;
+}
+.carousel-caption > h5 {
+  font-size: 300%;
+}
+.carousel-caption > p {
+  font-size: 150%;
+
+}
+
+
+
+

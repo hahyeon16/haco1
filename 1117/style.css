@@ -3,22 +3,22 @@ a {
   outline: none;
 }
 
- a.navbar-brand{
+ /* a.navbar-brand{
   font-size: 25px;
   text-align: left;
   margin: 0;
   color: green; 
   text-decoration: none;
-}   
+}    */s
  
-div.home img {
+/* div.home img {
   padding-right:5px;
   padding-left:5px;
 }
 
 div.home {
 padding:20px;
-}
+} */
 
 
 ul {
@@ -29,24 +29,24 @@ ul {
   display:inline-block;
 }
 
-/* div.login{
+div.login{
   color:black
   display: inline-block;
   float: right;
 } */
 
-a:hover{
+/* a:hover{
     background-color: khaki;
     color: green;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-}
-
-/* .nav{
-  border-bottom: 1px solid black;
 } */
+
+.nav{
+  border-bottom: 1px solid black;
+}
 
 
 
