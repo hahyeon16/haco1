@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery1120.js"></script>
+</head>
+
+
+<!-- <네비시작> -->
+
+  <div class="header">
+    <span class="panda"><img src="판다2.png"></span>
+    <span class ="logo"><a href="index.html">熊猫旅行社 <br>
+    Panda Tour</a> </span>
+   
+    <div class="nav1">
+      <span class="nav-header"><a href="login.html">로그인</a></span>
+      <span class="nav-header"><a href="signup.html">회원가입</a></span>
+    </div>  
+  </div>
+
+  
+<div class="nav2">
+  <div class="navmenu">
+  <span class="nav-header"><a href="index.html">Menu</a></span>
+  <span class="nav-header"><a href="package.html">여행상품</a></span>
+  <span class="nav-header"><a href="board.html">게시판</a></span>
+  <span class="nav-header"><a href="#">문의하기</a></span>
+  <span class="nav-header"><a href="#">마이페이지</a></span>
+  </div>
+  <div class="search">
+    <label for="site-search">어디로 떠나고 싶으신가요? : </label>
+    <input type="search" id="site-search" name="site-search">
+    <button> <a href="#">검색</a></button>
+  
+  </div>
+</div>
+
+<!-- <네비끝> -->
+
+<!-- <메인시작> -->
+
+<div class="main">
+
+  <div class="mainform">   
+  <!-- <form action="./result.html"
+        method="get"  
+        autocomplete="off"> -->
+    
+      <div class="title">
+        <span>타이페이</span>
+        <span>타이난</span>
+        <span>화롄</span>
+        <span>가오슝</span>
+      </div>
+
+      <div class="formgroup">
+
+        <div class="area">
+          <p>여행지 선택</p>
+          <select name="area">
+          <option selected>원하시는 대만 여행지를 선택해주세요</option>
+          <option>타이페이</option>
+          <option>타이중</option>
+          <option>타이난</option>
+          <option>가오슝</option>
+          </select>
+        </div>
+      
+        <div class="package">
+          <p>여행 상품 선택</p>
+        <select name="package">
+        <option selected>원하시는 여행 상품을 선택해주세요</option>
+        <option>타이페이 골목 간식 투어</option>
+        <option>타이난 역사&식도락 투어</option>
+        <option>화롄 낭만기차 투어</option>
+        <option>가오슝 자전거 투어 </option>
+        </select>
+        </div>
+
+        <div class="select">
+        <div class="number">
+        <label for="number">인원 선택</label>
+        <input type="number" id="select-number" name="select-number"  min="1" max="10"> 
+        </div>
+
+        <div class="travel-date">
+        <label for="travel-date">여행 일정</label>
+        <input type="date" id="select-date" name="select-date"  value="2022-12-20" min="2022-01-01" max="2023-12-25"> 
+        </div>
+      </div>
+
+        <div class="resevation-button">
+        <button type="submit"><a href="package.html">여행 상품 조회하기</a></button>
+        </div>
+
+      </div>
+  </div>  
+
+
+  <!-- <슬라이더> -->
+
+  <div class="slider">
+    <input type="radio" name="slide" id= "slide1" checked>
+    <input type="radio" name="slide" id= "slide2">
+    <input type="radio" name="slide" id= "slide3">
+    <input type="radio" name="slide" id= "slide4">
+
+      <ul id="imagholder" class="mainimgs">
+        <li><img src="딤섬.jpg" alt="딤섬 사진"></li>
+        <li><img src="쩐주나이차2.jpg" alt="밀크티 사진"></li>
+        <li><img src="칠성탄.jpg" alt="화롄 칠성탄 사진"></li>
+        <li><img src="타이루거 협곡3.jpg" alt="화롄 협곡 사진"></li>
+      </ul>
+
+        <div class="bullets">
+        <label for="slide1">&nbsp;</label>
+        <labe2 for="slide2">&nbsp;</labe2>
+        <labe3 for="slide3">&nbsp;</labe3>
+        <labe4 for="slide4">&nbsp;</labe4>
+        </div>
+  </div>
+
+  <!-- <슬라이더 끝> -->
+
+
+</div>
+
+<!-- <메인 끝> -->
+
+
+</body>
+
+<footer class="footer">
+	<p>주식회사 PANDA TOUR<br>
+	주소: 부산광역시 해운대구 해운대해변로 500번길 11-5  대표전화: 051-191-709   팩스: 3618-3-1783<br>
+    COPYRIGHT (C) PANDA TOUR GROUP All Rights Reserved.</p>
+</footer>
+
+<!-- 푸터 저작권 입력
+  
+   <a href="https://www.flaticon.com/kr/free-icons/-" title="판다 곰 아이콘">판다 곰 아이콘  제작자: Freepik - Flaticon</a> -->
+</html>
