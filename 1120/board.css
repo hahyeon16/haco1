@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+html,body {
+  height: 100%;
+}
+
+
+
+body {
+  background-color:lemonchiffon;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* display:flex;
+  flex-direction:column; */
+}
+
+/* .main{
+  flex:1;
+} */
+
+.header {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 75px 9fr 1.5fr;
+  border-bottom: 1.5px solid orangered;
+  padding-top: 10px;
+ 
+}
+
+a {
+  text-decoration-line: none ;
+}
+
+.panda img {
+  
+  width:50px;
+  height: 50px;
+  padding: 10px 23px 15px 15px;
+
+}
+
+.logo a {
+  color:black;
+}
+
+.nav1 a{
+  color:black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav2 a{
+  color:orangered;
+  font-weight: bold;
+}
+
+.nav1 {
+  padding-left:310x;
+  padding-bottom: 65px;
+  padding-top: 15px;
+
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  padding-left:0;
+}
+
+div.nav2 {
+  padding-left: 135px;
+  font-weight: bold;
+  letter-spacing:0px;
+  font-size:18px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+
+/* 검색 시작*/
+
+.search {
+  margin:3px;
+}
+
+.search input {
+  height: 27px;
+}
+
+.search button {
+  width:100px;
+  height: 30px;
+  margin-top:1px;
+  font-size:14px;
+  background-color: orangered;
+  border-color: salmon;
+  border-radius: 25px;
+}
+
+.search a {
+  color:black;
+  font-weight: 400;
+}
+
+.search label {
+  font-size:15px;
+  height: 23px;
+  color: black;
+  font-weight: bold;
+}
+
+/* 검색끝 */
+
+.nav-header {
+  padding-right: 23px;
+}
+
+/* 테이블전체 시작 */
+
+.table_header {
+  color:rgb(0, 14, 0);
+  text-align: center;
+  position: relative; 
+  margin:0px;
+  display: grid;
+  grid-template-columns: 1;
+  padding-top:60px;
+  width: 85%;
+
+}
+
+.table_header th{
+  border:2px solid olivedrab;
+  border-radius: 0px;
+  font-size: 20px;
+  font-weight:bold;
+  padding: 14px 20px 14px 20px; 
+}
+
+
+.table th {
+  width: 50px;
+  padding:10px;
+
+}
+
+body {
+  padding: 24px;
+}
+
+/* .table_header {
+  border-collapse: collapse;
+  border-spacing: 0;
+} */
+
+
+
+td, th {
+  border-bottom: 1px solid black;
+  padding: 16px 24px;
+  text-align: center;
+}
+
+.table th {
+  border-radius: 25px;
+  border-bottom: 0px;
+  background-color:darkgreen;
+  color:lemonchiffon;
+}
+
+caption {
+  margin-top: 12px;
+  caption-side: bottom;
+}
+
+h1 {
+  color:orangered;
+  text-align: center;
+  margin:50px;
+  font-weight: bold;
+  font-size:38px;
+}
+
+.table {
+  color:black;
+  text-align: center;
+  position: relative; 
+  margin:0px;
+  display: grid;
+  grid-template-columns: 1;
+  padding-top:20px;
+  width: 85%;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+.table td {
+  color:black;
+}
+
+.alltable {
+ display: grid; 
+ padding-left:150px;
+}
+
+/* <페이징> */
+
+.page{
+  text-align: center;
+  width:50%;
+  display: center;
+  padding: 20px 100px 30px 300px;
+}
+
+.pagination {
+  list-style: none;
+  display: inline-block;
+  padding:0;
+  margin-top: 20px;
+}
+
+.pagination li {
+  display: inline;
+  text-align: center;
+}
+
+.pagination a {
+  float: left;
+  display: block;
+  font-size:17px;
+  text-decoration: none;
+  padding:5px 12px;
+  color: darkgreen;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.last{
+  margin-left:15px;
+}
+
+.last:hover, .left:hover, .right:hover {
+  color: #2e9cdf;
+}
+
+.pagination a.active {
+  cursor:default;
+  color:orangered;
+}
+
+.pagination a:active {
+  /* outline:orangered solid 0.1px ; */
+  outline: none;
+}
+
+.modal .num {
+  margin-left: 3px;
+  padding:0;
+  width: 30px;
+  height: 30px;
+  line-height:30px;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
+  border-radius:100%;
+}
+
+.modal.num:hover {
+  background-color: 2e9cdf;
+  color:white;
+}
+
+.modal .num:hover {
+  background-color: darkgreen;
+  color:white;
+} 
+
+.modal .num:active, .modal .num:active {
+  background-color: darkgreen;
+  cursor:pointer;
+}
+
+.arrow.left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 20px solid green;
+}
+
+.arrow.right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid green;
+}
+
+/* <페이징끝> */
