@@ -11,6 +11,8 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   /* display:flex;
   flex-direction:column; */
+  height:100%;
+  width:100%;
 }
 
 /* .main{
@@ -294,6 +296,7 @@ ul.mainimgs li{
   width:20px;
   height: 20px;
   cursor: pointer;
+  background-color: gray;
 }
 
 .slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
